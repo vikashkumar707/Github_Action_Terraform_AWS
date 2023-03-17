@@ -3,7 +3,7 @@ name: aws-destroy
 on:
   workflow_dispatch:
 env:
-  BUCKET: vikash
+  BUCKET: vikash-b7-bucket
   TFSTATE_FILE: S3.tfstate
   aws_region: us-east-1
 
